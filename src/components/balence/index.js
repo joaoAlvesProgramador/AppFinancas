@@ -54,14 +54,14 @@ const styles=StyleSheet.create({
     },
     itemTitle:{
         fontSize:20,
-        color:'#DADADA'
+        color:'#0D0D0D'
     },
     content:{
         flexDirection:'row',
         alignItems:'center',
     },
     currencySymbol:{
-        color:'#DADADA',
+        color:'#0D0D0D',
         marginRight:6,
     },
     balance:{
