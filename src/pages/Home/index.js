@@ -8,7 +8,7 @@ export default function Home() {
     <View style={styles.container}>
       <Header name={"João Gabriel"} />
       
-      <Balance />
+      <Balance saldo="10.000,00" gastos="-500,00" />
     </View>
   );
 }
@@ -16,6 +16,6 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#fafafa',
   },
 });
