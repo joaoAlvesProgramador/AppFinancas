@@ -1,12 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native';
 import Header from '../../components/header';
+import Balance from '../../components/balence';
 
 
 export default function Home() {
   return (
     <View style={styles.container}>
-      <Header/>
-      <Text>Pagina Home!</Text>
+      <Header name={"João Gabriel"} />
+      
+      <Balance />
     </View>
   );
 }
